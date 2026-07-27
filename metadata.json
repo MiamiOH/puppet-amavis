@@ -1,29 +1,55 @@
 {
+  "name": "mjhas-amavis",
+  "version": "1.0.0",
+  "author": "mjhas",
+  "summary": "Installs and configures Amavis",
+  "license": "Apache-2.0",
+  "source": "https://github.com/mjhas/amavis.git",
+  "project_page": "https://github.com/mjhas/amavis",
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
-        "7"
+        "11",
+        "12",
+        "13"
       ]
     },
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
+        "20.04",
+        "22.04",
+        "24.04"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "Rocky",
+      "operatingsystemrelease": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "AlmaLinux",
+      "operatingsystemrelease": [
+        "8",
+        "9"
       ]
     }
   ],
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">=2.7.20 <4.0.0"
+      "version_requirement": ">= 7.0.0 < 10.0.0"
     }
   ],
-  "name": "mjhas-amavis",
-  "version": "1.0.0",
-  "author": "mjhas",
-  "summary": "This Clamav Module installs clamav",
-  "dependencies": [], 
-  "source": "https://github.com/mjhas/amavis.git",
-  "project_page": "https://github.com/mjhas/amavis",
-  "license": "Apache License 2.0"
+  "dependencies": []
 }
