@@ -14,9 +14,9 @@
 #   Desired state of the SpamAssassin package.
 #
 class amavis (
-  Package::Ensure $package_ensure      = 'latest',
-  Boolean         $spamassassin        = true,
-  Package::Ensure $spamassassin_ensure = 'latest',
+  String  $package_ensure      = 'latest',
+  Boolean $spamassassin        = true,
+  String  $spamassassin_ensure = 'latest',
 ) {
   $package_name = $facts['os']['family'] ? {
     'RedHat' => 'amavis',
