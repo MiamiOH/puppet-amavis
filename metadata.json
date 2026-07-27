@@ -1,6 +1,6 @@
 {
   "name": "mjhas-amavis",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "mjhas",
   "summary": "Installs and configures Amavis",
   "license": "Apache-2.0",
