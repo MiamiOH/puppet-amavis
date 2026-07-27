@@ -6,6 +6,9 @@
   "license": "Apache-2.0",
   "source": "https://github.com/mjhas/amavis.git",
   "project_page": "https://github.com/mjhas/amavis",
+  "dependencies": [
+
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",
@@ -51,5 +54,7 @@
       "version_requirement": ">= 7.0.0 < 10.0.0"
     }
   ],
-  "dependencies": []
+  "pdk-version": "3.4.0",
+  "template-url": "pdk-default#3.4.0",
+  "template-ref": "tags/3.4.0-0-gd3cc13f"
 }
